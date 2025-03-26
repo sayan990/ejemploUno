@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'MiFuente'; /* Nombre que le das a la fuente */
+    src: url('fonts/FuturaCyrillicBook.ttf') format('truetype'); /* Ruta a la fuente */
+    font-weight: normal; /* Peso de la fuente (normal, bold, etc.) */
+    font-style: normal; /* Estilo de la fuente (normal, italic, etc.) */
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('fonts/FuturaCyrillicDemi.ttf') format('truetype');
+    font-weight: bold; /* Para la versión en negrita */
+    font-style: normal;
+}
+
+body {
+    font-family: "miFuente";
+    color: #333;
+}
+
+h1 {
+    color: #0077cc;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+nav{
+    display: flex;           /* Activa Flexbox */
+    list-style: none;        /* Elimina los puntos de la lista */
+    padding: 0;              /* Elimina el padding por defecto */
+    margin: 0;
+    border-bottom: 2px solid #eaecee; /* Borde inferior de 2px, sólido */
+    justify-content: space-around;
+}
+
+.listaNavUno{
+    display: flex;           /* Activa Flexbox */
+    list-style: none;        /* Elimina los puntos de la lista */
+    padding: 10px;              /* Elimina el padding por defecto */
+    margin: 0;
+}
+
+.listaNavUno li{
+    margin-right: 20px;      /* Espacio entre elementos */
+    font-weight:bolder ;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "MiFuente";
+    padding: 8px;
+}
+
+.azulita{
+    color:#0000ff;
+}
+
+.naranjita{
+    color: #ff764d;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.footer{
+    border-top: 2px solid #eaecee;
+}
+
+.footer h2{
+    font-size: 65px;
+}
+
+.footCont{
+    display: flex;                     
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footUno{
+    flex: 1 1 auto;
+    max-width: 450px; /* Ancho mínimo para cada elemento */
+}
+
+.footUno ul{
+    list-style: none;        /* Elimina los puntos de la lista */
+    padding: 0;              /* Elimina el padding por defecto */
+    margin: 0;
+    font-size: 20px;
+}
+
+.footList{
+    font-weight: bold;
+    display: flex;
+    list-style: none;        /* Elimina los puntos de la lista */
+    padding: 0;              /* Elimina el padding por defecto */
+    margin-top: 50px;
+    
+}
+
+.footList li{
+    margin: 5px;
+    font-size: 14px;
+}
+
+.footGlobal{
+    margin:100px ; 
+}
+
+.buttFoot{
+ background-color: #0000ff;
+ margin: 0;
+ padding: 8px 30px 8px 30px;
+ color: #eaecee;
+ font-family: "miFuente";
+ border: none;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.inputFoot{
+ margin: 0;
+ padding: 8px 50px;
+ font-family: "miFuente";
+ font-size: 20px;
+ background-color: #ebe8e8;
+ border: none;
+ justify-content: right;
+}
+
+.selectFoot{
+ border-style: none;
+ background-color: #eaecee;
+ font-style: "MiFuente";
+ padding: 5px 10px;
+}
